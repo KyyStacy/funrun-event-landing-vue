@@ -87,29 +87,29 @@ onMounted(() => {
         <PhList v-else :size="28" weight="bold" />
       </button>
 
-      <!-- Mobile Nav Overlay -->
-      <nav 
-        class="fixed inset-0 bg-[var(--color-base)]/95 backdrop-blur-2xl z-40 flex flex-col items-center justify-center gap-8 transition-opacity duration-300 md:hidden"
-        :class="isMobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'"
-      >
-        <router-link
-          v-for="link in navLinks"
-          :key="link.label"
-          :to="link.href"
-          class="text-4xl font-display text-brand/70 hover:text-brand transition-colors uppercase tracking-widest"
-          @click="closeMobileMenu"
-        >
-          {{ link.label }}
-        </router-link>
-        <router-link
-          to="/daftar"
-          class="mt-6 px-10 py-4 text-xl font-display tracking-widest uppercase bg-accent text-brand rounded-none border-2 border-accent active:scale-95 transition-all -skew-x-6"
-          @click="closeMobileMenu"
-        >
-          <div class="skew-x-6">DAFTAR SEKARANG</div>
-        </router-link>
-      </nav>
-
     </div>
   </header>
+
+  <!-- Mobile Nav Overlay (Moved outside header to prevent backdrop-filter containing block bug) -->
+  <nav 
+    class="fixed inset-0 bg-[var(--color-base)]/95 backdrop-blur-2xl z-40 flex flex-col items-center justify-center gap-8 transition-opacity duration-300 md:hidden"
+    :class="isMobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'"
+  >
+    <router-link
+      v-for="link in navLinks"
+      :key="link.label"
+      :to="link.href"
+      class="text-4xl font-display text-brand/70 hover:text-brand transition-colors uppercase tracking-widest"
+      @click="closeMobileMenu"
+    >
+      {{ link.label }}
+    </router-link>
+    <router-link
+      to="/daftar"
+      class="mt-6 px-10 py-4 text-xl font-display tracking-widest uppercase bg-accent text-brand rounded-none border-2 border-accent active:scale-95 transition-all -skew-x-6"
+      @click="closeMobileMenu"
+    >
+      <div class="skew-x-6">DAFTAR SEKARANG</div>
+    </router-link>
+  </nav>
 </template>
