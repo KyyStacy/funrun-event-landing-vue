@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+
+/* --- Reed Fitness Fun Run - Next-Level Light Mode --- */
+
+@theme {
+  /* Font Family */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+
+  /* Colors */
+  --color-brand: #1c4f24;
+  --color-brand-light: #2a7a36;
+  --color-brand-lighter: #38a548;
+  --color-brand-dark: #123317;
+  --color-accent: #dcf259;
+  
+  --color-base: #fcfdfc; /* Premium off-white with hint of green */
+  --color-surface: #ffffff; /* Pure white for cards */
+  --color-surface-hover: #f2f7f3; /* Very light green for hover states */
+
+  /* Animation Utilities */
+  --animate-fade-in-up: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-fade-in: fade-in 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  body {
+    @apply bg-[var(--color-base)] text-brand font-sans antialiased selection:bg-brand selection:text-white;
+    overflow-x: hidden;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .glass-panel {
+    @apply bg-white/70 backdrop-blur-2xl border border-black/5 shadow-xl shadow-brand/5;
+  }
+  
+  @media (prefers-reduced-transparency: reduce) {
+    .glass-panel {
+      @apply bg-white border-black/10;
+    }
+  }
+}
