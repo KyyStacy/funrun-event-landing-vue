@@ -140,3 +140,7 @@ Desktop.ini
 *.sw?
 *.sublime-workspace
 *.sublime-project
+
+# Agent files
+.agents/
+skills-lock.json

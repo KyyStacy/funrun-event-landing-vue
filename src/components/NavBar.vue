@@ -48,10 +48,8 @@ onMounted(() => {
       
       <!-- Brand -->
       <router-link to="/" class="flex items-center gap-4 relative z-50 group" @click="closeMobileMenu">
-        <div class="w-14 h-14 rounded-full overflow-hidden border-2 border-accent transition-transform duration-300 group-hover:scale-105 shadow-[0_0_15px_rgba(220,242,89,0.3)] bg-white">
-          <img src="/logo.png" alt="Reed Code Logo" class="w-full h-full object-cover" />
-        </div>
-        <span class="text-3xl font-display tracking-wide uppercase transition-colors" :class="isScrolled ? 'text-white' : 'text-brand'">Reed Code</span>
+
+        <span class="text-3xl font-display tracking-wide uppercase transition-colors" :class="isScrolled ? 'text-white' : 'text-brand'">Reed Fitness</span>
       </router-link>
 
       <!-- Desktop Nav -->

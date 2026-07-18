@@ -91,7 +91,7 @@ onUnmounted(() => {
     <!-- Kinetic Marquee Ticker (Background) -->
     <div class="absolute top-[15%] left-0 w-[200vw] flex overflow-hidden whitespace-nowrap opacity-[0.03] z-0 pointer-events-none select-none">
       <h2 class="animate-[marquee_20s_linear_infinite] text-[15rem] font-black tracking-tighter text-brand uppercase">
-        Reed Code &bull; Fun Run 2026 &bull; Reed Code &bull; Fun Run 2026 &bull; 
+        Reed Fitness &bull; Fun Run 2026 &bull; Reed Fitness &bull; Fun Run 2026 &bull; 
       </h2>
     </div>
     
@@ -101,7 +101,7 @@ onUnmounted(() => {
       <div ref="textRef" class="lg:col-span-7 flex flex-col z-30 pt-10 lg:pt-0 relative">
 
         <h1 class="text-[5.5rem] sm:text-[8rem] md:text-[11rem] lg:text-[14rem] xl:text-[16rem] font-display text-brand leading-[0.8] uppercase flex flex-col items-start relative -skew-x-6">
-          <div class="overflow-visible pb-2 pr-4"><div class="hero-char inline-block">Reed Code</div></div>
+          <div class="overflow-visible pb-2 pr-4"><div class="hero-char inline-block">Reed Fitness</div></div>
           <div class="overflow-visible pb-2 pr-8 -mt-2 lg:-mt-8 pl-0 lg:pl-16"><div class="hero-char inline-block text-brand-light">Fitness</div></div>
           <div class="overflow-visible pb-2 pr-4 -mt-2 lg:-mt-8"><div class="hero-char inline-block">Fun Run</div></div>
         </h1>
@@ -132,7 +132,7 @@ onUnmounted(() => {
           <img
             ref="imageRef"
             :src="heroImage"
-            alt="Pelari fun run Reed Code"
+            alt="Pelari fun run Reed Fitness"
             class="w-full h-[120%] object-cover object-center absolute top-[-10%]"
             loading="eager"
           />

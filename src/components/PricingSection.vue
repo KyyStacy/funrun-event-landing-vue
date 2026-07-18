@@ -88,7 +88,7 @@ onUnmounted(() => {
           Investasi<br>Kesehatan.
         </h2>
         <p class="text-lg sm:text-xl text-white/80 font-medium mb-12 leading-relaxed max-w-md border-l-4 border-accent pl-4">
-          Amankan slot Anda sekarang. Harga khusus tersedia untuk member aktif Reed Code.
+          Amankan slot Anda sekarang. Harga khusus tersedia untuk member aktif Reed Fitness.
         </p>
       </div>
 
