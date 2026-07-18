@@ -22,7 +22,7 @@ import FooterSection from '../components/FooterSection.vue'
           Formulir<br><span class="text-brand-light">Pendaftaran</span>
         </h1>
         <p class="text-xl text-brand/70 font-medium max-w-lg mx-auto border-l-4 border-accent pl-4 text-left">
-          Lengkapi data diri Anda di bawah ini untuk mengamankan slot eksklusif di Reed Fitness Fun Run 2026.
+          Lengkapi data diri Anda di bawah ini untuk mengamankan slot eksklusif di Reed Code Fun Run 2026.
         </p>
       </div>
 

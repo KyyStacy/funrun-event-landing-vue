@@ -376,7 +376,7 @@ function submitForm() {
                   <input type="checkbox" v-model="tundukPeraturan" class="sr-only" />
                   <PhCheck v-if="tundukPeraturan" class="text-brand w-4 h-4 sm:w-5 sm:h-5" weight="bold" />
                 </div>
-                <span class="font-bold text-sm sm:text-lg skew-x-2" :class="tundukPeraturan ? 'text-white' : 'text-brand'">Saya bersedia tunduk pada seluruh peraturan dan ketentuan yang berlaku dalam event Reed Fitness Fun Run 2026.</span>
+                <span class="font-bold text-sm sm:text-lg skew-x-2" :class="tundukPeraturan ? 'text-white' : 'text-brand'">Saya bersedia tunduk pada seluruh peraturan dan ketentuan yang berlaku dalam event Reed Code Fun Run 2026.</span>
               </label>
             </div>
             

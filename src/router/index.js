@@ -5,13 +5,13 @@ const routes = [
     path: '/',
     name: 'home',
     component: () => import('../views/HomePage.vue'),
-    meta: { title: 'Reed Fitness Fun Run 2026' }
+    meta: { title: 'Reed Code Fun Run 2026' }
   },
   {
     path: '/daftar',
     name: 'register',
     component: () => import('../views/RegisterPage.vue'),
-    meta: { title: 'Daftar - Reed Fitness Fun Run 2026' }
+    meta: { title: 'Daftar - Reed Code Fun Run 2026' }
   }
 ]
 
@@ -26,7 +26,7 @@ const router = createRouter({
 })
 
 router.beforeEach((to) => {
-  document.title = to.meta.title || 'Reed Fitness Fun Run'
+  document.title = to.meta.title || 'Reed Code Fun Run'
 })
 
 export default router

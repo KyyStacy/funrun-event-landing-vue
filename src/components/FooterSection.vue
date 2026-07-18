@@ -7,7 +7,7 @@ import { PhInstagramLogo, PhEnvelope, PhWhatsappLogo } from '@phosphor-icons/vue
     
     <!-- Huge Typography Background -->
     <div class="absolute top-1/2 left-0 -translate-y-1/2 w-full text-center pointer-events-none opacity-5 z-0">
-      <h2 class="text-[25vw] font-display text-white leading-none uppercase tracking-tighter -skew-x-6">Reed</h2>
+      <h2 class="text-[15vw] font-display text-white leading-none uppercase tracking-tighter -skew-x-6">REED CODE</h2>
     </div>
 
     <div class="max-w-[1400px] mx-auto px-6 md:px-12 w-full relative z-10">
@@ -17,9 +17,9 @@ import { PhInstagramLogo, PhEnvelope, PhWhatsappLogo } from '@phosphor-icons/vue
         <div class="col-span-1 lg:col-span-4 flex flex-col gap-6">
           <router-link to="/" class="flex items-center gap-4 group">
             <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-accent transition-transform duration-500 group-hover:scale-110 shadow-[0_0_20px_rgba(220,242,89,0.2)] bg-white">
-              <img src="/logo.png" alt="Reed Fitness Logo" class="w-full h-full object-cover" />
+              <img src="/logo.png" alt="Reed Code Logo" class="w-full h-full object-cover" />
             </div>
-            <span class="text-5xl font-display tracking-wide uppercase text-white group-hover:text-accent transition-colors duration-500">Reed Fitness</span>
+            <span class="text-5xl font-display tracking-wide uppercase text-white group-hover:text-accent transition-colors duration-500">Reed Code</span>
           </router-link>
           <p class="text-white/70 font-medium max-w-sm leading-relaxed text-lg mt-4">
             Komunitas kebugaran premium yang mengutamakan pencapaian, kebersamaan, dan gaya hidup aktif tingkat tinggi.
@@ -41,11 +41,11 @@ import { PhInstagramLogo, PhEnvelope, PhWhatsappLogo } from '@phosphor-icons/vue
         <div class="md:col-span-4 lg:col-span-3 flex flex-col gap-8">
           <h4 class="text-sm font-black text-accent uppercase tracking-widest">Hubungi Kami</h4>
           <div class="flex flex-col gap-5">
-            <a href="mailto:info@reedfitness.id" class="flex items-center gap-4 text-white/70 hover:text-accent transition-colors w-fit font-bold text-lg group">
+            <a href="mailto:info@reedcode.id" class="flex items-center gap-4 text-white/70 hover:text-accent transition-colors w-fit font-bold text-lg group">
               <div class="p-3 rounded-xl bg-white/5 group-hover:bg-accent group-hover:text-brand transition-colors duration-300">
                 <PhEnvelope :size="20" weight="bold" />
               </div>
-              info@reedfitness.id
+              info@reedcode.id
             </a>
             <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="flex items-center gap-4 text-white/70 hover:text-accent transition-colors w-fit font-bold text-lg group">
               <div class="p-3 rounded-xl bg-white/5 group-hover:bg-accent group-hover:text-brand transition-colors duration-300">
@@ -53,11 +53,11 @@ import { PhInstagramLogo, PhEnvelope, PhWhatsappLogo } from '@phosphor-icons/vue
               </div>
               +62 812-3456-7890
             </a>
-            <a href="https://instagram.com/reedfitness" target="_blank" rel="noopener" class="flex items-center gap-4 text-white/70 hover:text-accent transition-colors w-fit font-bold text-lg group">
+            <a href="https://instagram.com/reedcode" target="_blank" rel="noopener" class="flex items-center gap-4 text-white/70 hover:text-accent transition-colors w-fit font-bold text-lg group">
               <div class="p-3 rounded-xl bg-white/5 group-hover:bg-accent group-hover:text-brand transition-colors duration-300">
                 <PhInstagramLogo :size="20" weight="bold" />
               </div>
-              @reedfitness
+              @reedcode
             </a>
           </div>
         </div>
@@ -66,7 +66,7 @@ import { PhInstagramLogo, PhEnvelope, PhWhatsappLogo } from '@phosphor-icons/vue
 
       <div class="pt-10 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
         <p class="text-sm font-bold text-white/40">
-          &copy; 2026 Reed Fitness. Hak Cipta Dilindungi.
+          &copy; 2026 Reed Code. Hak Cipta Dilindungi.
         </p>
       </div>
     </div>
