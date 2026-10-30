@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="FUN RUN 2026">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#123317"/><stop offset="1" stop-color="#1c4f24"/></linearGradient>
+    <radialGradient id="glow" cx=".78" cy=".35" r=".55"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#fff" fill-opacity=".12"/></pattern>
+    <clipPath id="card"><rect width="1280" height="400" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1280" height="400" fill="url(#bg)"/>
+    <rect width="1280" height="400" fill="url(#dots)"/>
+    <rect width="1280" height="400" fill="url(#glow)"/>
+    <circle cx="-40" cy="430" r="220" fill="#fff" fill-opacity=".06"/>
+    
+      <g transform="translate(760,0) skewX(-14)">
+        <rect x="120" y="0" width="34" height="400" fill="#dcf259" opacity="0.18"/><rect x="190" y="0" width="34" height="400" fill="#dcf259" opacity="0.3"/><rect x="260" y="0" width="34" height="400" fill="#dcf259" opacity="0.42"/><rect x="330" y="0" width="34" height="400" fill="#dcf259" opacity="0.54"/><rect x="400" y="0" width="34" height="400" fill="#dcf259" opacity="0.6599999999999999"/>
+      </g>
+      <g transform="translate(850,200) skewX(-10)">
+        <text font-family="Impact, 'Arial Black', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="900" fill="#dcf259" letter-spacing="2">5K</text>
+        <text x="180" y="125" font-family="Impact, 'Arial Black', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="110" font-weight="900" fill="#fff" letter-spacing="2">10K</text>
+      </g>
+    <text x="72" y="96" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#fff" fill-opacity=".8" letter-spacing="4">REED FITNESS · REED CODE</text>
+    <text x="72" y="172" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="800" fill="#fff">FUN RUN 2026</text>
+    <text x="72" y="222" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#fff" fill-opacity=".88">Reed Fitness · 15 November 2026</text>
+    <rect x="72" y="292" width="70" height="38" rx="19" fill="#fff" fill-opacity=".14" stroke="#fff" stroke-opacity=".35"/><text x="107" y="317" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" fill="#fff">Vue 3</text><rect x="154.0" y="292" width="60" height="38" rx="19" fill="#fff" fill-opacity=".14" stroke="#fff" stroke-opacity=".35"/><text x="184" y="317" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" fill="#fff">Vite</text><rect x="226.4" y="292" width="60" height="38" rx="19" fill="#fff" fill-opacity=".14" stroke="#fff" stroke-opacity=".35"/><text x="257" y="317" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" fill="#fff">GSAP</text><rect x="298.8" y="292" width="118" height="38" rx="19" fill="#fff" fill-opacity=".14" stroke="#fff" stroke-opacity=".35"/><text x="358" y="317" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" fill="#fff">Tailwind 4</text>
+  </g>
+</svg>
