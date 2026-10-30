@@ -1,5 +1,5 @@
 <script setup>
-import { PhInstagramLogo, PhWhatsappLogo, PhTiktokLogo } from '@phosphor-icons/vue'
+import { PhInstagramLogo, PhTiktokLogo } from '@phosphor-icons/vue'
 </script>
 
 <template>
@@ -39,13 +39,6 @@ import { PhInstagramLogo, PhWhatsappLogo, PhTiktokLogo } from '@phosphor-icons/v
         <div class="md:col-span-4 lg:col-span-3 flex flex-col gap-8">
           <h4 class="text-sm font-black text-accent uppercase tracking-widest">Hubungi Kami</h4>
           <div class="flex flex-col gap-5">
-
-            <a href="https://wa.me/6285171713355" target="_blank" rel="noopener" class="flex items-center gap-4 text-white/70 hover:text-accent transition-colors w-fit font-bold text-lg group">
-              <div class="p-3 rounded-xl bg-white/5 group-hover:bg-accent group-hover:text-brand transition-colors duration-300">
-                <PhWhatsappLogo :size="20" weight="bold" />
-              </div>
-              +62 851-7171-3355
-            </a>
             <a href="https://instagram.com/reedcode.id" target="_blank" rel="noopener" class="flex items-center gap-4 text-white/70 hover:text-accent transition-colors w-fit font-bold text-lg group">
               <div class="p-3 rounded-xl bg-white/5 group-hover:bg-accent group-hover:text-brand transition-colors duration-300">
                 <PhInstagramLogo :size="20" weight="bold" />
